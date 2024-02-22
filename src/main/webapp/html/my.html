@@ -3,7 +3,6 @@
 <head>
     <title>RPG</title>
     <script src=https://code.jquery.com/jquery-3.6.0.min.js></script>
-    <script src="script.js" defer></script>
     <link href="/css/my.css" rel="stylesheet">
 </head>
 <body onload="showPage(0)">
@@ -187,7 +186,6 @@
         let deleteId = "#deleteButton_" + playerId;
 
         $(deleteId).remove();
-
         let saveButtonImg = "<img src='img/save.png' alt='save'>";
         $(editId).html(saveButtonImg);
 
